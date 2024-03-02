@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+      .header{
+    background-color: rgb(0, 207, 249);
+    height: 4cm;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: right;
+  }
+  .active{
+    float: left;
+  }
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
+  
+  li a:hover {
+    background-color: #00b609;
+  }
+.main-contant{
+    width: 70%;
+    height: 11cm;
+    background-color: rgb(143, 251, 251);
+    margin: auto;
+    padding: 10px;
+}
+footer{
+  background-color: #32485b;
+  height: 2cm;
+}
+.search
+{
+border-radius: 10px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+@media screen and (max-width: 650px) {
+  .header{
+    height: 3cm;
+  }
+  ul{
+    height: 0.7cm;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 15px;
+  } 
+  .logo{
+    width: 40%;
+}
+.search{
+  width: 70%;
+}
+footer{
+  background-color: #32485b;
+  height: 1.5cm;
+}
+}
+@media screen and (max-width: 375px) {
+  .header{
+    height: 2cm;
+  }
+  ul{
+    height: 0.5cm;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 10px;
+  } 
+  .logo{
+    width: 50%;
+    height: 35px;
+}
+footer{
+  background-color: #32485b;
+  height: 1.5cm;
+}
+.search{
+  height: 15px;
+}
+}
+    </style>
+   
+</head>
+<body>
+    <header class="header"><img class="logo" src="Screenshot_2024-02-09_233210-removebg-preview.png" alt="">
+            <input class="search" type="search" id="gsearch" name="gsearch">
+</header>
+<ul>
+    <li><a href="#About_us">contact us</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Follow</a></li>
+    <li class="active"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+  </ul>
+  <br>
+<div class="main-contant"></div>
+<br>
+<div class="main-contant"></div>
+<br>
+<div class="main-contant"></div>
+<br>
+<div class="main-contant"></div>
+<br>
+<div class="main-contant"></div>
+<br>
+<div class="main-contant"></div>
+<br>
+<footer></footer>
+</body>
+</html>
